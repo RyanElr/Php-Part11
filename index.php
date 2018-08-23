@@ -28,6 +28,7 @@ if (!empty($_GET)) {
 <html>
     <head>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
         <title>Calculatrice</title>
     </head>
     <body>
@@ -39,6 +40,7 @@ if (!empty($_GET)) {
             <input type="submit" name="soustraction" value="-"/>
             <input type="submit" name="multiplication" value="*"/>
             <input type="submit" name="division" value="/"/>
+            <input type="submit" name="reset" value="Reset"/>
         </form>
         <p>Résultat : <?php echo $result; ?> </p>
     </body>
